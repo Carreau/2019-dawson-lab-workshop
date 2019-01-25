@@ -25,30 +25,9 @@ JupyterLab, and how to make the best use of the new powerful features of
 JupyterLab.
 
 
-You (should) be provided with red and green sticky notes. If you have any
-question and concern or need help, stick the red sticky note visible on back of
-your laptop's screen. A helper will come see you, or the speaker will take time
-to get questions.
-
-If all is fine, or we're too slow for you, stick the green sticky note to the
-back of your laptop screen.
-
-At each break, write a thing you understood of liked on the green sticky note,
-a thing you did not like or found hard on the red one. When exiting the room,
-stick them to the door frame. Make sure to get new sticky notes for the next
-section.
-
-This can serve as a quick read through summary of what we talked about (with
-links) and a rough timeline if you want to follow up on the video later.
-
-## Overview of JupyterLab
+## Overview of Jupyter and JupyterLab
 
 ###  8-8:10 (10 min) - introduction
-
-Today this tutorial will be presented to you by Jason Grout, and Matthias
-Bussonnier, two long standing members of the Jupyter Project. We have a number
-of helpers in the room. Attendees should have been given red/green
-sticky notes.
 
 By now you should have installed JupyterLab following the instructions in the
 readme. For this tutorial, we are standardizing on a conda-based python
@@ -69,7 +48,6 @@ exercise try to think first:
 - There will likely be a binder available, but do not rely on the conference
     wifi.
 
-###  JASON 8:10-8:25 (15min)
  - Introduction to JupyterLab (slides)
 
 - Respond to FAQ:
@@ -77,22 +55,18 @@ exercise try to think first:
   - Can you get Lab and notebook at the same time: YES
   - No difference in file format; Notebooks files are the same
 
-###  JASON 8:25-8:45 (20 min): Tour of The User Interface
+###  Tour of The User Interface
   - Following outline from https://github.com/jupyterlab/jupyterlab-demo/tree/master/narrative or https://gist.github.com/jasongrout/3039b5909734b1abf4544a8df68a8ace
 
-###  MATTHIAS 8:45-9:05 (20 min): Exercise 1 (and help installation issues if needed):
+###  Exercise 1 (and help installation issues if needed):
 
 Look into the Exercise 1 folder, and follow the instruction in `Exercise-1.md`
 
-### 9:05-9:15 (10 min): break 10min + sticky notes
-
-Write one good thing on the green sticky note, one bad on the red one.
-
-### 9:15-9:20 (5 min) : Q.A. 5 min
+### Q.A. 5 min
 
 ## Workflows around executing code
 
-###  MATTHIAS 9:20-9:30 (10 min): Minor Notebook UI interface difference - review from Exercise 1
+###  Minor Notebook UI interface difference - review from Exercise 1
 
   1. Arranging tabs through dragging
   2. How to author markdown and equations
@@ -102,7 +76,7 @@ Write one good thing on the green sticky note, one bad on the red one.
   6. creating new view of outputs
   7. javascript rendering restrictions (removed in the next beta)
 
-###  MATTHIAS 9:30-9:45 (15 min): Attaching kernels to multiple documents
+### Attaching kernels to multiple documents
 
   1. Executing code in a markdown file using an attached console.
   2. Developing libraries with notebook and Python files attached to same kernel
@@ -111,15 +85,13 @@ Write one good thing on the green sticky note, one bad on the red one.
   5. Attaching a code console to the same kernel as a notebook.
 
 
-###  MATTHIAS 9:45-10:10 (15 min) Exercise 2
+### Exercise 2
 
 - binding multiple documents to the same kernel
     - New Console for Notebook
     - Markdown file + console workflow
     - Python code file + console workflow
     - Open a notebook in classic notebook, modify, save and reopen in Lab.
-
-###  10:10-10:25 (15min)  break 10 min + sticky notes + Q.A 5min
 
 
 ## Customizing JupyterLab

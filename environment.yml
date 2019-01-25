@@ -1,4 +1,4 @@
-name: scipy18jlab
+name: dawson-workshop
 channels:
   - conda-forge
 dependencies:
